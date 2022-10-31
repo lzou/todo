@@ -1,17 +1,17 @@
 # todo
 
 An App for todo task.  
-采用flutter编写，可以编译到各个平台上使用。  
-当前的版本是小朋友从起床到上学的task，帮助小朋友养成独立自主的好习惯。
+Written in flutter, it can be compiled and used on various platforms.
+The current version is a task for children from getting up to school, helping children develop good habits of independence.
 
 version 0.1
-首页显示待完成任务，点击完成播放相应的提示音。
+The home page displays tasks to be completed, click Finish to play the corresponding prompt sound.
 
 version 0.2
-增加设置功能，可以控制完成任务后是否播放声音。
+Added setting function, you can control whether to play sound after completing the task.
 
 version 0.3 todo 
-可以新增、修改、删除任务
+Can add, modify and delete tasks
 
 ![](screenshot/main.jpeg)
 
