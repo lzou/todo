@@ -13,15 +13,12 @@ class App extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Home(),
-      theme: ThemeData(
-          primaryColor: Colors.yellow
-      ),
+      theme: ThemeData(primaryColor: Colors.yellow),
     );
   }
 }
 
 class Home extends StatelessWidget {
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(

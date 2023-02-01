@@ -10,11 +10,12 @@ class list extends StatefulWidget {
   }
 }
 
-class home extends State with WidgetsBindingObserver{
+class home extends State with WidgetsBindingObserver {
   @override
   Widget build(BuildContext context) {
     return ListView(
-      children: datas.map((v, {index}) => item(v.name, v.icon, v.audio)).toList(),
+      children:
+          datas.map((v, {index}) => item(v.name, v.icon, v.audio)).toList(),
     );
   }
 }

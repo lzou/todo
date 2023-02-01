@@ -23,12 +23,13 @@ class Home extends StatelessWidget {
       backgroundColor: Colors.grey[100],
       appBar: AppBar(
         title: const Text('setting'),
-        leading: IconButton(onPressed: () {
-          Navigator.pop(pageContext);
-        }, icon: Icon(Icons.arrow_back)),
+        leading: IconButton(
+            onPressed: () {
+              Navigator.pop(pageContext);
+            },
+            icon: Icon(Icons.arrow_back)),
       ),
       body: item(),
     );
   }
-  
 }

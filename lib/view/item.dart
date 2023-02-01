@@ -14,10 +14,9 @@ class item extends StatefulWidget {
   State<StatefulWidget> createState() {
     return itemState(name, icon, audio);
   }
-
 }
 
-class itemState extends State with WidgetsBindingObserver{
+class itemState extends State with WidgetsBindingObserver {
   bool _switchValue = false;
   bool canPlay = false;
   String name;
@@ -28,9 +27,8 @@ class itemState extends State with WidgetsBindingObserver{
 
   void playAudio(audio) async {
     var value = await utils.getAudioState();
-    if(value){
-      AssetsAudioPlayer.newPlayer().open(
-          Audio(audio));
+    if (value) {
+      AssetsAudioPlayer.newPlayer().open(Audio(audio));
     }
   }
 

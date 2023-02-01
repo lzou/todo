@@ -11,12 +11,11 @@ class item extends StatefulWidget {
   }
 }
 
-class home extends State with WidgetsBindingObserver{
-
+class home extends State with WidgetsBindingObserver {
   bool _switchValue = false;
 
   @override
-  void initState(){
+  void initState() {
     super.initState();
     initFromCache();
   }
@@ -33,7 +32,7 @@ class home extends State with WidgetsBindingObserver{
   }
 
   @override
-  Widget build(BuildContext context){
+  Widget build(BuildContext context) {
     return Column(
       children: [
         const SizedBox(height: 10),
